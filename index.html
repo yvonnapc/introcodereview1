@@ -2,30 +2,74 @@
 <html>
   <head>
     <title>Yvonna Contreras</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/bootsrap-theme.css" media="screen">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <h1>Hi, I'm Yvonna!</h1>
+   <div class="container">
+     <header class="page-header">
+      <h2>Welcome to my page!</h2>
+     </header>
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide jumbotron">
+  <div class="container">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <h3 class="lead">Hi, I'm Yvonna</h3>
+        <img class="carousel-image" src="img/myself.jpg" alt="a photo of myself">
+      </div>
+      <div class="item active">
+        <h3>My dogs: Maverick and Henry
+        <img class="carousel-image" src="img/dogs.JPG" alt="a photo of Henny and Mav">
+      </div>
+      <div class="item active">
+        <h3>My family</h3>
+        <img class="carousel-image" src="img/family.JPG" alt="a photo of my family">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Carousel -->
+<div class="container">
+  <div class='row'>
     <h2>These are a couple of things about me:</h2>
+  </div>
 
-    <h4>Projects</h4>
-    <ul>
-      <li>Here is a webpage about my <a href="http://yvonnapc.github.io/final-push/index.html">Favorite Places</a>
-      </li>
-      <li>Here is a webpage about <a href="http://yvonnapc.github.io/cupcakeassignment/index.html">Sprinkles Cupcakes</a>
-      </li>
-      <li>Here is a webpage about a <a href="http://yvonnapc.github.io/vacation/index.html">Vacation</a>
-      </li>
-    </ul>
-
-
-
-
-    <h4>Family</h4>
-    <p>My parents, sisters, girlfriend, and dogs are important to me (but my favorite is my niece! Shh!)</p>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>Projects</h4>
+        <ul>
+          <li>Here is a webpage about my <a href="http://yvonnapc.github.io/final-push/index.html">Favorite Places</a>
+          </li>
+          <li>Here is a webpage about <a href="http://yvonnapc.github.io/cupcakeassignment/index.html">Sprinkles Cupcakes</a>
+          </li>
+          <li>Here is a webpage about a <a href="http://yvonnapc.github.io/vacation/index.html">Vacation</a>
+          </li>
+        </ul>
+    </div>
 
 
+    <div class="col-sm-4">
+      <h4>About Me</h4>
+      <p>My parents, sisters, girlfriend, and dogs are important to me (but my <strong>favorite</strong> is my niece! Shh!)</p>
+    </div>
+
+    <div class="col-sm-4">
+      <h4>Will Fill with text</h4>
+      <p>more text</p>
+    </div>
+   </div>
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
   </body>
-
-
 </html>
