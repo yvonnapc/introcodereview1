@@ -1,0 +1,34 @@
+h1 {
+  color: purple;
+}
+
+carousel-image {
+  align-items: center;
+  width: 100%;
+}
+
+.image-responsive {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  color:green;
+}
+
+h4 {
+  text-align: center;
+  color: purple;
+}
+
+.my-class {
+  border: 3px solid green;
+  padding: 4px;
+  text-align: center;
+  margin: 10px;
+  background-color: #d3d3d3;
+}
+
+.carousel-image {
+  align-items: center;
+}
